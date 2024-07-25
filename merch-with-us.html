@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Humber Merch is a group project for Web Programming and Design course."
+    />
+    <meta name="keywords" content="HTML, CSS, JS" />
+    <meta name="author" content="Sahil, Sohad, John" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merch With Us | Humber Merch</title>
+    <!-- Stylesheets: Normalize & Custom -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/merch-with-us.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/72ee252b88.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header: Navbar -->
+    <header>
+      <div class="store-notices">
+        <div class="notice">
+          <p>We are open on August 05, 2024</p>
+          <p>Open Mon - Fri 09:00 - 17:00 / Closed on weekends</p>
+        </div>
+      </div>
+
+      <nav>
+        <a class="logo" href="index.html"
+          ><img src="images/logo.svg" alt="Humber Merch Logo"
+        /></a>
+        <ul>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="merch-with-us.html">Merch With Us</a></li>
+          <li><a href="productDetails.html">Product Details</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="merch-with-us-section">
+        <div>
+          <p class="pre-heading">Merch With Us</p>
+          <h2>Join the Humber Merch Community</h2>
+          <p>
+            Are you a student with a passion for creating unique and innovative
+            products? Humber Merch is the perfect platform for you to showcase
+            your work and reach a broader audience. We believe in the power of
+            student creativity and are dedicated to providing a space where your
+            talents can shine. By partnering with us, you can turn your creative
+            ideas into successful ventures.
+          </p>
+          <p>
+            At Humber Merch, we offer more than just a place to sell your
+            products. We provide a supportive community that values and
+            celebrates your artistic endeavors. Our store is designed to
+            highlight the diverse range of skills and creativity our students
+            possess. When you choose to merch your work with us, you gain
+            exposure to customers who appreciate and seek out unique,
+            student-created items.
+          </p>
+          <p>
+            Joining Humber Merch means becoming part of a movement that supports
+            student innovation and entrepreneurship. By showcasing your products
+            in our store, you not only gain valuable experience but also
+            contribute to a vibrant community that values originality and
+            craftsmanship. Take the next step in your creative journey and let
+            Humber Merch help you turn your passion into a thriving business. We
+            can't wait to see what you create!
+          </p>
+        </div>
+
+        <img src="images/collaboration.png" alt="collaborate with us" />
+      </section>
+
+      <section class="merch-process-section">
+        <div>
+          <i class="fa-solid fa-paintbrush"></i>
+          <p>
+            Make sure each item reflects your best work and meets our quality
+            standards and eligibility criteria
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-newspaper"></i>
+          <p>
+            Fill out our online application form with all the necessary details
+            about yourself and your products
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-stairs"></i>
+          <p>
+            After reviewing your application, we will contact you to discuss the
+            next steps
+          </p>
+        </div>
+      </section>
+
+      <section class="application-section">
+        <h2>Share your creativity with Humber Merch</h2>
+        <p>
+          Before submitting your application, please take a moment to review our
+          <a href="eligibility-criteria-and-guidelines.pdf" target="_blank"
+            >eligibility criteria and guidelines</a
+          >
+          Ensuring your product meets our standards will help streamline the
+          approval process and increase the chances of your work being featured
+          at Humber Merch. Thank you for your attention to detail and dedication
+          to excellence.
+        </p>
+
+        <form action="submission-confirmation.html">
+          <h3>Product Application</h3>
+          <fieldset>
+            <div>
+              <label class="required" for="student-name">Full Name</label>
+              <input
+                type="text"
+                name="student-name"
+                id="student-name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="required" for="student-id">Student Id</label>
+              <input
+                type="text"
+                name="student-id"
+                id="student-id"
+                placeholder="n123456"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div>
+              <label class="required" for="product-name">Product Name</label>
+              <input
+                type="text"
+                name="product-name"
+                id="product-name"
+                placeholder="Silvers Rayleigh Poster"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="required" for="product-category"
+                >Product Category</label
+              >
+              <select name="product-category" id="product-category" required>
+                <option value="" disabled selected>
+                  ----- Select a product category -----
+                </option>
+                <option value="apparel">Apparel</option>
+                <option value="artwork">Art Work</option>
+                <option value="everyday-item">Everyday Item</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="required" for="product-images"
+                >Product Images</label
+              >
+              <input
+                type="file"
+                id="product-images"
+                name="product-images"
+                accept="image/*"
+                multiple
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div>
+              <label for="product-description">Product Description</label>
+              <textarea
+                rows="1"
+                name="product-description"
+                id="product-description"
+                placeholder="Share details about your product to help us expedite the review process"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <button type="submit">Submit Application</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-section">
+        <a class="logo" href="index.html"
+          ><img src="images/logo.svg" alt="Humber Merch Logo"
+        /></a>
+
+        <div class="footer-links">
+          <div class="store">
+            <h4>Store</h4>
+
+            <ul>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="merch-with-us.html">Merch With Us</a></li>
+              <li><a href="productDetails.html">Product Details</a></li>
+            </ul>
+          </div>
+
+          <div class="resources">
+            <h4>Resources</h4>
+
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="blogosphere.html">Blog</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="contact">
+            <h4>Contact</h4>
+
+            <ul>
+              <li><a href="tel:+6476878870">+1 (647) 687 8870</a></li>
+              <li>
+                <a href="mailto:info@humbermerch.ca">info@humbermerch.ca</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="address">
+            <h4>Location</h4>
+
+            <address>
+              205 Humber College Blvd <br />
+              Etobicoke, ON M9W 5L7
+            </address>
+          </div>
+        </div>
+      </section>
+
+      <div class="copyright">
+        <p class="copyright-text">
+          Copyright 2024 &copy; | Humber Merch | All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

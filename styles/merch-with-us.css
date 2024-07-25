@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    color: #222;
+    line-height: 1.75;
+    font-family: "Roboto", sans-serif;
+    background-color: #faebd3;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  img {
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* Header & Navbar */
+  header {
+    background-color: #faebd3;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .store-notices {
+    background-color: #fff;
+  }
+  
+  .notice {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .notice p {
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  nav {
+    width: 95%;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+  }
+  
+  nav a {
+    font-weight: bold;
+    color: #9d769e;
+    text-decoration: none;
+  }
+  
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    border-bottom: 2px solid #9d769e;
+  }
+  
+  .logo:hover,
+  .logo:focus,
+  .logo:active {
+    border: none;
+  }
+  
+  /* Main & Section */
+  section {
+    width: 95%;
+    margin: 65px auto;
+  }
+
+  .merch-with-us-section {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .pre-heading {
+    margin-bottom: 0;
+    color: #9d769e;
+    font-weight: bold;
+  }
+  
+  .merch-with-us-section h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+
+  .merch-with-us-section img {
+    width: 425px;
+  }
+
+  .merch-process-section {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .merch-process-section div {
+    width: 250px;
+  }
+
+  i {
+    font-size: 40px;
+    color: inherit;
+  }
+
+  .application-section h2,
+  .application-section p {
+    text-align: center;
+  }
+
+  .application-section a {
+    font-weight: bold;
+    color: #9d769e;
+    text-decoration: none;
+  }
+  
+  .application-section a:hover,
+  .application-section a:focus,
+  .application-section a:active {
+    border-bottom: 2px solid #9d769e;
+  }
+
+  form {
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  fieldset {
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    border: 0;
+  }
+
+  fieldset div {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  label, input {
+    display: block;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  label.required::after {
+    content: " *";
+    color: red;
+  }
+
+  input, select, textarea {
+    margin: 20px 0;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #9d769e;
+    background-color: transparent;
+  }
+
+  select {
+    color: gray;
+  }
+
+  input[type="file"] {
+    border: 0;
+    color: gray;
+  }
+
+  textarea {
+    background-color: transparent;
+  }
+
+  button {
+    padding: 7px 20px;
+    color: #9d769e;
+    font-weight: bold;
+    border: 2px solid #9d769e;
+    border-radius: 50px;
+    background-color: transparent;
+  }
+
+  button:hover,
+  button:focus,
+  button:active {
+    color: #fff;
+    background-color: #9d769e;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 2px solid #fff;
+  }
+  
+  .footer-section {
+    margin: 65px auto 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 16px;
+  }
+  
+  .footer-links ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .footer-links li {
+    margin-bottom: 7.5px;
+  }
+  
+  .footer-links a {
+    font-weight: bold;
+    color: #9d769e;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover,
+  .footer-links a:focus,
+  .footer-links a:active {
+    border-bottom: 2px solid #9d769e;
+  }
+  
+  .copyright {
+    background-color: #fff;
+  }
+  
+  .copyright-text {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

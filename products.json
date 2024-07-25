@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "image_source" : "images/about-us.png",
+        "image_alt" : "alternate text",
+        "name" : "product 01"
+    },
+    {
+        "id" : 2,
+        "image_source" : "images/behind-the-scenes.png",
+        "image_alt" : "alternate text",
+        "name" : "product 02"
+    },
+    {
+        "id" : 3,
+        "image_source" : "images/celebrating-diversity.png",
+        "image_alt" : "alternate text",
+        "name" : "product 03"
+    },
+    {
+        "id" : 4,
+        "image_source" : "images/collaboration.png",
+        "image_alt" : "alternate text",
+        "name" : "product 04"
+    },
+    {
+        "id" : 5,
+        "image_source" : "images/vw-sticker.png",
+        "image_alt" : "alternate text",
+        "name" : "product 05"
+    },
+    {
+        "id" : 6,
+        "image_source" : "images/about-us.png",
+        "image_alt" : "alternate text",
+        "name" : "product 06"
+    }
+]
