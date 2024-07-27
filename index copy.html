@@ -33,7 +33,6 @@
   </head>
   <body>
 
-
     
     <!-- Page Loader -->
     <div id="preloader">
@@ -259,11 +258,15 @@
       </div>
     </footer>
     <script>
-      window.addEventListener('load', function() {
-        const preloader = document.getElementById('#preloader');
-        preloader.addEventListener('animationend', function() {
-          preloader.style.display = 'none';
-        });
+      document.addEventListener("DOMContentLoaded", function () {
+        const preloader = document.getElementById('preloader');
+        const body = document.getElementById('body');
+    
+        // Show body after a delay to allow the fade-out animation to complete
+        setTimeout(function () {
+          preloader.style.display = 'none';  // Hide the preloader
+          body.classList.add('loaded');      // Show the body content
+        }, 4000); // Adjust the timeout to match the duration of your fade-out animation (2s animation + 2s delay)
       });
     </script>
   </body>
