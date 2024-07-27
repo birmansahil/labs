@@ -2,7 +2,7 @@ const ITEMS = [
     {
         id: 1,
         name: 'FRAMED COLLECTION',
-        price: 57.25,
+        price: 1050,
         image: 'images/my-framed.jpeg',
         qty: 1,
         size: "select",
