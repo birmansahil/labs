@@ -25,7 +25,7 @@ main {
   justify-content: center;
   background: #ffff;
   
-  animation: fade-out 2s 2s forwards;
+  animation: fade-out .3s 3s forwards;
   
 }
 .loader img {
@@ -488,13 +488,14 @@ i {
 .btn {
   display: inline-block;
   padding: 7px 20px;
-  position: relative;
+  
   color: #9d769e;
   font-weight: bold;
   text-decoration: none;
   border: 2px solid #9d769e;
   border-radius: 50px;
 }
+
 
 .btn:hover,
 .btn:focus,
