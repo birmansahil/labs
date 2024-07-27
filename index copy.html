@@ -28,8 +28,20 @@
       src="https://kit.fontawesome.com/72ee252b88.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Page Loader -->
+    
   </head>
   <body>
+
+
+    
+    <!-- Page Loader -->
+    <div id="preloader">
+      <div class="loader">
+        <img width="350px" src="images/logo.svg" alt="">
+            
+          </div>
+        </div>
     <!-- Header: Navbar -->
     <header>
       <div class="store-notices">
@@ -246,5 +258,13 @@
         </p>
       </div>
     </footer>
+    <script>
+      window.addEventListener('load', function() {
+        const preloader = document.getElementById('#preloader');
+        preloader.addEventListener('animationend', function() {
+          preloader.style.display = 'none';
+        });
+      });
+    </script>
   </body>
 </html>
